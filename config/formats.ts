@@ -19,6 +19,21 @@ The column value will be ignored for repeat sections.
 
 export const Formats: import('../sim/dex-formats').FormatList = [
 
+	// Our Draft League
+	///////////////////////////////////////////////////////////////////
+	{
+		section: "Draft League",
+	},
+	{
+		name: "Gaming Draft League",
+		mod: 'gamingdraftleague',
+		ruleset: ['Standard NatDex', 'Terastal Clause'],
+		banlist: [
+			'ND Uber', 'ND AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'King\'s Rock',
+			'Quick Claw', 'Razor Fang', 'Assist', 'Baton Pass', 'Last Respects', 'Shed Tail',
+		],
+	},
+
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
 
