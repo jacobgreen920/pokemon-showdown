@@ -13966,7 +13966,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "White",
 		eggGroups: ["Water 3"],
 		requiredItem: "Crabominite",
-		gen: 9,
 	},
 	oricorio: {
 		num: 741,
@@ -14516,7 +14515,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Gray",
 		eggGroups: ["Bug", "Water 3"],
 		requiredItem: "Golisopite",
-		gen: 9,
 	},
 	sandygast: {
 		num: 769,
@@ -15081,7 +15079,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "White",
 		eggGroups: ["Monster", "Dragon"],
 		requiredItem: "Drampanite",
-		gen: 9,
 	},
 	dhelmise: {
 		num: 781,
@@ -15456,7 +15453,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Magearnite",
-		gen: 9,
 	},
 	magearnaoriginalmega: {
 		num: 801,
@@ -15473,7 +15469,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Magearnite",
 		battleOnly: "Magearna-Original",
-		gen: 9,
 	},
 	marshadow: {
 		num: 802,
@@ -15574,7 +15569,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		tags: ["Mythical"],
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Zeraorite",
-		gen: 9,
 	},
 	meltan: {
 		num: 808,
@@ -16826,7 +16820,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Yellow",
 		eggGroups: ["Fairy", "Mineral"],
 		requiredItem: "Falinksite",
-		gen: 9,
 	},
 	pincurchin: {
 		num: 871,
@@ -17483,7 +17476,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 333,
 		color: "Brown",
 		eggGroups: ["Field"],
-		gen: 9,
 	},
 	basculegion: {
 		num: 902,
