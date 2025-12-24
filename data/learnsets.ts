@@ -43,7 +43,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			celebrate: ["6S5"],
 			charm: ["9M", "8M", "7E", "6E", "5E", "4E", "3E"],
 			confide: ["7M", "6M"],
-			crunch: ["6M"],
 			curse: ["9M", "9E", "8E", "7E", "7V", "6E", "5E", "4E", "3E"],
 			cut: ["7V", "6M", "5M", "4M", "3M"],
 			defensecurl: ["7V", "3T"],
