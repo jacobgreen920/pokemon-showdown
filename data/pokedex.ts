@@ -13942,7 +13942,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Crabominable",
 		types: ["Fighting", "Ice"],
 		baseStats: { hp: 97, atk: 132, def: 77, spa: 62, spd: 67, spe: 43 },
-		abilities: { 0: "Hyper Cutter", 1: "Iron Fist", H: "Anger Point" },
+		abilities: { 0: "Ice Scales" },
 		heightm: 1.7,
 		weightkg: 180,
 		color: "White",

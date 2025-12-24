@@ -4292,7 +4292,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	crabominablemega: {
 		isNonstandard: "Future",
 		tier: "Illegal",
-		natDexTier: "OU",
+		natDexTier: "16",
 	},
 	oricorio: {
 		tier: "ZU",
