@@ -141,7 +141,7 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 				item = this.dex.forGen(gen).items.get(item.id);
 				gen--;
 			}
-			if (requireObtainable && item.isNonstandard) {
+			if (requireObtainable && item.isNonstandard && item.isNonstandard !== 'Future') {
 				if (this.ruleTable.has(`+item:${item.id}`)) return;
 				return [`${set.name}'s item ${item.name} does not exist in Gen ${this.dex.gen}.`];
 			}
