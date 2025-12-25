@@ -1834,6 +1834,9 @@ export class TeamValidator {
 		}
 
 		if (nonexistentCheck) {
+			if (tierSpecies.isNonstandard === 'Future') {
+				return null;
+			}
 			if (tierSpecies.isNonstandard === 'Past') {
 				return `${tierSpecies.name} does not exist in Gen ${dex.gen}.`;
 			}
@@ -1907,7 +1910,10 @@ export class TeamValidator {
 		if (item.isNonstandard && item.isNonstandard !== 'Unobtainable') {
 			banReason = ruleTable.check('nonexistent', setHas);
 			if (banReason) {
-				if (['Past', 'Future'].includes(item.isNonstandard)) {
+				if (item.isNonstandard === "Future") {
+					return null;
+				}
+				if (item.isNonstandard === "Past") {
 					return `${set.name}'s item ${item.name} does not exist in Gen ${dex.gen}.`;
 				}
 				return `${set.name}'s item ${item.name} does not exist in this game.`;
