@@ -4290,6 +4290,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RU",
 	},
 	crabominablemega: {
+		isNonstandard: "Future",
 		tier: "OU",
 		natDexTier: "16",
 	},

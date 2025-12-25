@@ -1266,6 +1266,8 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			return true;
 		},
 		num: 2595,
+		gen: 9,
+		isNonstandard: "Future",
 	},
 	crackedpot: {
 		name: "Cracked Pot",
