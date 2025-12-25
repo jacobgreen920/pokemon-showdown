@@ -1180,7 +1180,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	zapdos: {
 		tier: "OU",
 		doublesTier: "(DUU)",
-		natDexTier: "OU",
+		natDexTier: "16",
 	},
 	zapdosgalar: {
 		tier: "UU",
@@ -4292,7 +4292,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	crabominablemega: {
 		isNonstandard: "Future",
 		tier: "OU",
-		natDexTier: "t16",
+		natDexTier: "16",
 	},
 	oricorio: {
 		tier: "ZU",
@@ -4782,7 +4782,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	zeraora: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "UU",
+		natDexTier: "16",
 	},
 	zeraoramega: {
 		isNonstandard: "Future",

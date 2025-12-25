@@ -266,6 +266,10 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		name: "ND LC",
 		speciesFilter: species => species.natDexTier === 'LC',
 	},
+	nd16: {
+		name: "ND 16",
+		speciesFilter: species => species.natDexTier === '16',
+	},
 
 	// Legality tags
 	past: {
