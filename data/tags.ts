@@ -270,6 +270,66 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		name: "ND 16",
 		speciesFilter: species => species.natDexTier === '16',
 	},
+	nd15: {
+		name: "ND 15",
+		speciesFilter: species => species.natDexTier === '15',
+	},
+	nd14: {
+		name: "ND 14",
+		speciesFilter: species => species.natDexTier === '14',
+	},
+	nd13: {
+		name: "ND 13",
+		speciesFilter: species => species.natDexTier === '13',
+	},
+	nd12: {
+		name: "ND 12",
+		speciesFilter: species => species.natDexTier === '12',
+	},
+	nd11: {
+		name: "ND 11",
+		speciesFilter: species => species.natDexTier === '11',
+	},
+	nd10: {
+		name: "ND 10",
+		speciesFilter: species => species.natDexTier === '10',
+	},
+	nd9: {
+		name: "ND 9",
+		speciesFilter: species => species.natDexTier === '9',
+	},
+	nd8: {
+		name: "ND 8",
+		speciesFilter: species => species.natDexTier === '8',
+	},
+	nd7: {
+		name: "ND 7",
+		speciesFilter: species => species.natDexTier === '7',
+	},
+	nd6: {
+		name: "ND 6",
+		speciesFilter: species => species.natDexTier === '6',
+	},
+	nd5: {
+		name: "ND 5",
+		speciesFilter: species => species.natDexTier === '5',
+	},
+	nd4: {
+		name: "ND 4",
+		speciesFilter: species => species.natDexTier === '4',
+	},
+	nd3: {
+		name: "ND 3",
+		speciesFilter: species => species.natDexTier === '3',
+	},
+	nd2: {
+		name: "ND 2",
+		speciesFilter: species => species.natDexTier === '2',
+	},
+	nd1: {
+		name: "ND 1",
+		speciesFilter: species => species.natDexTier === '1',
+	},
 
 	// Legality tags
 	past: {
