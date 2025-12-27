@@ -293,6 +293,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sleeppowder: ["9L15", "8L15", "8V", "7L13", "7V", "6L13", "5L13", "4L13", "3L15"],
 			sleeptalk: ["9M", "8M", "7M", "7V", "6M", "5T", "4M", "3T"],
 			sludgebomb: ["9M", "8M", "8V", "7M", "6M", "5M", "4M", "3M"],
+			sludgewave: ["6M"], //new move
 			snore: ["8M", "7T", "7V", "6T", "5T", "4T", "3T"],
 			solarbeam: ["9M", "9L58", "8M", "8L58", "8V", "7M", "7L53", "7V", "6M", "6L53", "6S0", "5M", "5L53", "4M", "4L53", "3M", "3L65"],
 			stompingtantrum: ["9M", "8M", "7T"],
@@ -976,6 +977,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			icespinner: ["9M"],
 			icywind: ["9M", "8M", "7T", "7V", "6T", "5T", "4T", "3T"],
 			irondefense: ["9M", "9L42", "8M", "8L42", "7T", "7L47", "6T", "6L46", "6S1", "5T", "5L46", "4T", "4L46"],
+			ironhead: ["6M"], //new move
 			irontail: ["8M", "8V", "7T", "7V", "6T", "5T", "4M", "3M"],
 			liquidation: ["9M", "8M", "7T"],
 			megakick: ["8M", "7V", "3T"],
@@ -1211,6 +1213,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			brickbreak: ["8V", "7M", "6M", "5M", "4M", "3M"],
 			brutalswing: ["7M"],
 			bugbite: ["7T", "6T", "5T", "4T"],
+			bugbuzz: ["6M"], //new move
 			captivate: ["4M"],
 			confide: ["7M", "6M"],
 			curse: ["7V"],
@@ -1238,6 +1241,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			infestation: ["7M", "6M"],
 			knockoff: ["7T", "6T", "5T", "4T"],
 			laserfocus: ["7T"],
+			lunge: ["6M"], //new move
 			megadrain: ["8V", "7V"],
 			mimic: ["7V", "3T"],
 			naturalgift: ["4M"],
@@ -3743,6 +3747,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			upperhand: ["9M"],
 			uproar: ["8M"],
 			voltswitch: ["9M", "8M", "7M"],
+			volttackle: ["6M"], //new move
 			wildcharge: ["9M", "8M", "7M"],
 		},
 	},
@@ -5057,6 +5062,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	clefable: {
 		learnset: {
+			airslash: ["6M"], //new move
 			afteryou: ["9L1", "8L1", "7T", "6T", "5T"],
 			alluringvoice: ["9M"],
 			allyswitch: ["8M"],
@@ -5115,6 +5121,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			growl: ["9L1", "8L1", "8V"],
 			headbutt: ["8V", "7V", "4T"],
 			healbell: ["7T", "6T", "5T", "4T"],
+			healblock: ["6M"], //new move
 			healingwish: ["9L1", "8L1"],
 			helpinghand: ["9M", "8M", "8V", "7T", "6T", "5T", "4T"],
 			hiddenpower: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -10213,6 +10220,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			terablast: ["9M"],
 			thief: ["9M", "7M", "6M", "5M", "4M", "3M"],
 			toxic: ["9M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
+			toxicspikes: ["6M"], //new move
 			trailblaze: ["9M"],
 			venoshock: ["9M", "7M", "6M", "5M"],
 			vinewhip: ["9L1", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
@@ -11505,6 +11513,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			growl: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
 			hail: ["8M", "7M", "6M", "5M", "4M", "3M"],
 			headbutt: ["9L21", "8L21", "8V", "7L23", "7V", "6L23", "5L23", "4T", "4L25", "3L29"],
+			healblock: ["6M"], //new move
 			healpulse: ["9L51", "8L51", "7L1", "6L1", "5L68"],
 			helpinghand: ["9M"],
 			hiddenpower: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -11531,6 +11540,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			naturalgift: ["4M"],
 			nightmare: ["7V", "3T"],
 			payday: ["8M", "8V", "7V"],
+			powergem: ["6M"], //new move
 			protect: ["9M", "8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			psybeam: ["9M"],
 			psychic: ["9M", "9L36", "8M", "8L36", "8V", "7M", "7L49", "7V", "6M", "6L49", "5M", "5L49", "4M", "4L54", "3M", "3L44"],
@@ -11631,6 +11641,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			expandingforce: ["9M", "8T"],
 			facade: ["9M", "8M"],
 			fireblast: ["9M", "8M"],
+			firepunch: ["6M"], //new move
 			flamethrower: ["9M", "8M"],
 			fling: ["9M", "8M"],
 			focusblast: ["9M", "8M"],
@@ -11643,6 +11654,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			hail: ["8M"],
 			haze: ["9M"],
 			headbutt: ["9L21", "8L21"],
+			healblock: ["6M"], //new move
 			healpulse: ["9L45", "8L45"],
 			helpinghand: ["9M"],
 			hydropump: ["9M", "8M"],
@@ -11698,8 +11710,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			tackle: ["9L1", "8L1"],
 			takedown: ["9M"],
 			terablast: ["9M"],
+			thunderpunch: ["6M"], //new move
 			thunderwave: ["9M", "8M"],
 			toxic: ["9M"],
+			toxicspikes: ["9M"], //new move
 			triattack: ["8M"],
 			trick: ["9M", "8M"],
 			trickroom: ["9M", "8M"],
@@ -11767,6 +11781,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			growl: ["9L1", "8L1", "7L5", "7V", "6L5", "5L5", "4L6", "3L6"],
 			hail: ["8M", "7M", "6M", "5M", "4M", "3M"],
 			headbutt: ["9L21", "8L21", "7L23", "7V", "6L23", "5L23", "4T", "4L25", "3L29"],
+			healblock: ["6M"], //new move
 			healpulse: ["9L45", "8L45", "7L1", "6L1", "5L58"],
 			helpinghand: ["9M"],
 			hiddenpower: ["7M", "7L1", "7V", "6M", "6L1", "5M", "5L1", "4M", "4L1", "3M"],
@@ -13723,6 +13738,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			shadowball: ["9M", "9L48", "8M", "8L48", "8V", "8S7", "7M", "7L33", "7V", "6M", "6L33", "6S3", "6S4", "5M", "5L33", "4M", "4L33", "3M", "3L45"],
 			shadowclaw: ["9M", "8M", "7M", "6M", "5M", "4M"],
 			shadowpunch: ["9L1", "8L1", "7L1", "6L25", "6S1", "6S2", "5L25", "4L25", "3L25"],
+			shadowsneak: ["6M"], //new move
 			skillswap: ["9M", "8M", "7T", "6T", "5T", "4M", "3M"],
 			skittersmack: ["9M", "8T"],
 			skullbash: ["7V"],
@@ -17837,10 +17853,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			allyswitch: ["8M", "7T"],
 			attract: ["7V"],
 			avalanche: ["8M", "4M"],
+			aquajet: ["6M"], //new move
 			bide: ["7V"],
 			blizzard: ["8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			brine: ["8M", "8L1", "4M"],
 			bubblebeam: ["7V"],
+			bulkup: ["6M"], //new move
 			confide: ["7M", "6M"],
 			confuseray: ["8L1", "7L40", "7V", "6L22", "5L22", "4L28", "3L33"],
 			cosmicpower: ["8M", "8L1"],
@@ -17864,12 +17882,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			hail: ["8M", "7M", "6M", "5M", "4M", "3M"],
 			harden: ["8L1", "8V", "7V"],
 			headbutt: ["8V"],
+			healblock: ["6M"], //new move
 			hiddenpower: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			hydropump: ["8M", "8L1", "7L1", "6L1"],
 			hyperbeam: ["8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			icebeam: ["8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M", "3S0"],
 			icywind: ["8M", "7T", "7V", "6T", "5T", "4T", "3T"],
 			lightscreen: ["8M", "8L1", "8V", "7M", "6M", "5M", "4M", "3M"],
+			liquidation: ["6M"], //new move
 			magiccoat: ["7T", "6T", "5T", "4T"],
 			meteorbeam: ["8T"],
 			mimic: ["7V", "3T"],
@@ -17896,8 +17916,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			return: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			rollout: ["4T"],
 			round: ["8M", "7M", "6M", "5M"],
+			safeguard: ["6M"], //new move
 			scald: ["8M", "8V", "7M", "6M", "5M"],
 			secretpower: ["6M", "4M", "3M"],
+			selfdestruct: ["6M"], //new move
 			signalbeam: ["7T", "6T", "5T", "4T"],
 			skillswap: ["8M", "7T", "6T", "5T", "4M", "3M"],
 			skullbash: ["7V"],
@@ -17926,6 +17948,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["8M", "7V", "4M"],
 			wonderroom: ["8M", "7T", "6T", "5T"],
 			zapcannon: ["7V"],
+			zenheadbutt: ["6M"], //new move
 		},
 		eventData: [
 			{generation: 3, level: 41, moves: ["refresh", "waterfall", "icebeam", "recover"]},
@@ -19464,6 +19487,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	pinsir: {
 		learnset: {
+			aerialace: ["6M"], //new move
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 			bide: ["7V"],
 			bind: ["8L8", "8V", "7T", "7L4", "7V", "6T", "6L4", "5T", "5L4", "4L4", "3L7"],
@@ -19506,6 +19530,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			hyperbeam: ["8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			irondefense: ["8M", "7T", "6T", "5T", "4T"],
 			knockoff: ["7T", "6T", "5T", "4T"],
+			lunge: ["6M"], //new move
 			mefirst: ["7E", "6E", "5E", "5D"],
 			mimic: ["7V", "3T"],
 			naturalgift: ["4M"],
@@ -19892,6 +19917,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dragondance: ["9M", "9L36", "8M", "8L36", "7L45", "6L44", "6S0", "5L44", "4L44", "3L50"],
 			dragonpulse: ["9M", "8M", "8V", "7T", "6T", "5T", "4M"],
 			dragonrage: ["8V", "7L36", "7V", "6L23", "5L23", "4L23", "3L25"],
+			dragonrush: ["6M"], //new move
 			dragontail: ["9M", "8V", "7M", "6M", "5M"],
 			earthquake: ["9M", "8M", "8V", "7M", "6M", "6S0", "5M", "4M", "3M"],
 			endeavor: ["9M"],
@@ -20365,6 +20391,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "5L1", "5S0", "4L1", "3L1"],
 			tailwhip: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S1", "5L1", "5S0", "4L1", "3L1"],
 			takedown: ["9M", "9L1", "8L1", "7V"],
+			taunt: ["6M"], //new move
 			terablast: ["9M"],
 			toxic: ["8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			trailblaze: ["9M"],
@@ -20523,6 +20550,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			firespin: ["9M", "9L35", "8M", "8L35", "8V", "7L25", "7V", "6L25", "5L25", "4L36", "3L36"],
 			flamecharge: ["9M", "7M", "6M", "5M"],
 			flamethrower: ["9M", "8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M", "3L52"],
+			flamewheel: ["6M"], //new move
 			flareblitz: ["9M", "9L50", "8M", "8L50", "8V", "7L45", "7S2", "6L45"],
 			focusenergy: ["8M", "8V"],
 			frustration: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -20574,9 +20602,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			superpower: ["8M", "8V", "7T", "6T", "5T", "4T"],
 			swagger: ["7M", "7V", "6M", "5M", "4M", "3T"],
 			swift: ["9M", "9L1", "8M", "8L1", "7V", "4T", "3T"],
+			swordsdance: ["6M"], //new move
 			tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "5L1", "5S0", "4L1", "3L1"],
 			tailwhip: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S1", "5L1", "5S0", "4L1", "3L1"],
 			takedown: ["9M", "9L1", "8L1", "7V"],
+			taunt: ["9M"], //new move
 			temperflare: ["9M"],
 			terablast: ["9M"],
 			toxic: ["8V", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -20635,6 +20665,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			growl: ["9L1", "8L1"],
 			headbutt: ["7V", "4T"],
 			healbell: ["7T", "6T", "5T", "4T"],
+			healblock: ["6M"], //new move
 			helpinghand: ["9M", "9L1", "8M", "8L1", "7T", "7L1", "6T", "6L1", "5T", "5L1", "5S1", "4T", "4L1", "3L1"],
 			hiddenpower: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			hyperbeam: ["9M", "8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -20672,6 +20703,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			roar: ["9M"],
 			round: ["8M", "7M", "6M", "5M"],
 			sandattack: ["9L5", "8L5", "7L5", "7V", "6L5", "6S2", "5L5", "5S1", "4L8", "3L8"],
+			safeguard: ["6M"], //new move
 			secretpower: ["6M", "4M", "3M"],
 			shadowball: ["9M", "8M", "7M", "7V", "7S3", "6M", "5M", "4M", "3M"],
 			signalbeam: ["7T", "6T", "5T", "4T"],
@@ -20750,6 +20782,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			hyperbeam: ["9M", "8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 			hypervoice: ["9M", "8M", "7T", "6T", "5T"],
 			irontail: ["8M", "7T", "7V", "6T", "5T", "4M", "3M"],
+			knockoff: ["6M"], //new move
 			laserfocus: ["7T"],
 			lashout: ["9M", "8T"],
 			lastresort: ["9L55", "8L55", "7T", "7L41", "6T", "6L41", "5T", "5L41", "4T", "4L50"],
@@ -20898,6 +20931,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			tackle: ["9L1", "8L1", "7L1", "6L1", "5L1", "5S0", "4L1"],
 			tailwhip: ["9L1", "8L1", "7L1", "6L1", "6S1", "5L1", "5S0", "4L1"],
 			takedown: ["9M", "9L1", "8L1"],
+			taunt: ["6M"], //new move
 			terablast: ["9M"],
 			toxic: ["7M", "6M", "5M", "4M"],
 			trailblaze: ["9M"],
@@ -20994,6 +21028,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			tackle: ["9L1", "8L1", "7L1", "6L1", "5L1", "5S0", "4L1"],
 			tailwhip: ["9L1", "8L1", "7L1", "6L1", "6S1", "5L1", "5S0", "4L1"],
 			takedown: ["9M", "9L1", "8L1"],
+			taunt: ["6M"], //new move
 			terablast: ["9M"],
 			toxic: ["7M", "6M", "5M", "4M"],
 			trailblaze: ["9M"],
@@ -22883,6 +22918,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			waterpulse: ["9M", "7T", "6T", "4M", "3M"],
 			weatherball: ["9M"],
 			whirlpool: ["8M", "7V", "4M"],
+			whirlwind: ["6M"], //new move
 			wingattack: ["9L1", "8L1", "8V", "7L1", "7V", "6L55", "5L55", "5S4", "5S5", "4L55", "3L55", "3S0"],
 			wrap: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
 			zapcannon: ["7V"],
@@ -23682,10 +23718,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			counter: ["3T"],
 			curse: ["9M", "7V"],
 			cut: ["7V", "6M", "5M", "4M", "3M"],
+			dazzlinggleam: ["6M"], //new move
 			detect: ["7V"],
 			doubleedge: ["9M", "3T"],
 			doubleteam: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			dragontail: ["9M", "7M", "6M", "5M"],
+			earthpower: ["6M"], //new move
 			earthquake: ["9M", "7M", "7V", "6M", "5M", "4M", "3M"],
 			echoedvoice: ["7M", "6M", "5M"],
 			encore: ["9M"],
@@ -23712,6 +23750,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			irontail: ["7T", "7V", "6T", "5T", "4M", "3M"],
 			knockoff: ["9M"],
 			laserfocus: ["7T"],
+			leafblade: ["6M"], //new move
 			leafstorm: ["9M"],
 			leechseed: ["9L26"],
 			lightscreen: ["9M", "9L40", "7M", "7L40", "7V", "6M", "6L40", "5M", "5L40", "4M", "4L40", "3M", "3L41"],
@@ -26142,6 +26181,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			facade: ["9M", "7M", "6M", "5M", "4M", "3M"],
 			firepunch: ["9M", "9L1", "7T", "7L1", "7V", "6T", "6L1", "5T", "5L1", "4T", "4L1", "3T"],
 			flash: ["7V", "6M", "5M", "4M", "3M"],
+			flashcannon: ["6M"], //new move
 			fling: ["9M", "7M", "6M", "5M", "4M"],
 			focusblast: ["9M", "7M", "6M", "5M", "4M"],
 			focuspunch: ["9M", "7T", "6T", "4M", "3M"],
@@ -29632,6 +29672,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			mimic: ["3T"],
 			naturalgift: ["4M"],
 			nightslash: ["9E", "8E", "7L1", "6L1", "5L1", "4L1"],
+			outrage: ["6M"], //new move
 			pinmissile: ["9L35", "8M", "8L35", "7L31", "6L31", "6S0", "6S1"],
 			pounce: ["9M"],
 			protect: ["9M", "8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -38342,6 +38383,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			gravity: ["9M", "7T", "6T", "5T", "4T"],
 			gyroball: ["9M", "8M"],
 			headbutt: ["4T"],
+			healblock: ["6M"], //new move
 			helpinghand: ["9M", "8M", "3S1"],
 			hex: ["9M", "8M"],
 			hiddenpower: ["7M", "6M", "5M", "4M", "3M"],
@@ -38372,9 +38414,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			naturalgift: ["4M"],
 			nightmare: ["3T"],
 			nightshade: ["9M", "9L21", "8L21", "7L6", "6L6", "5L8", "4L8", "3L9", "3S0"],
+			nightslash: ["6M"], //new move
 			octazooka: ["5S2"],
 			ominouswind: ["4T"],
 			painsplit: ["9M", "7T", "6T", "4T"],
+			partingshot: ["6M"], //new move
 			payback: ["8M", "7M", "6M", "5M", "4M"],
 			phantomforce: ["9M"],
 			poisonjab: ["9M", "8M", "7M", "6M", "5M", "4M"],
@@ -38397,6 +38441,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			rocktomb: ["9M", "8M", "7M", "6M", "5M", "4M", "3M"],
 			roleplay: ["7T", "6T", "5T", "4T"],
 			round: ["8M", "7M", "6M", "5M"],
+			safeguard: ["6M"], //new move
 			scratch: ["9L1", "8L1", "7L1", "6L1", "5L1", "4L1", "3L1", "3S0"],
 			secretpower: ["6M", "4M", "3M"],
 			seismictoss: ["3T"],
@@ -38459,6 +38504,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			counter: ["3T"],
 			crunch: ["8M", "8L28", "7L29", "6L29", "5L36", "4L36", "3L36"],
 			darkpulse: ["8M", "7M", "6M", "5T", "4M"],
+			dazzlinggleam: ["6M"], //new move
 			doubleedge: ["3T"],
 			doubleteam: ["7M", "6M", "5M", "4M", "3M"],
 			drainingkiss: ["8M"],
@@ -38968,6 +39014,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		learnset: {
 			acupressure: ["9L33", "7L33", "6L33", "5L42"],
 			aerialace: ["9M"],
+			agility: ["6M"], //new move
 			attract: ["7M", "6M", "5M", "4M", "3M"],
 			aurasphere: ["9M"],
 			axekick: ["9L53"],
@@ -43478,6 +43525,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			grudge: ["7L52", "6L52", "5L52", "4L58", "3L64"],
 			gunkshot: ["9M", "7T"],
 			headbutt: ["4T"],
+			healblock: ["6M"], //new move
 			helpinghand: ["9M", "3S0"],
 			hex: ["9M", "9L22", "7L22", "6L22", "5L26", "5S1"],
 			hiddenpower: ["7M", "6M", "5M", "4M", "3M"],
@@ -43520,6 +43568,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			shockwave: ["7T", "6T", "4M", "3M"],
 			skillswap: ["9M", "7T", "6T", "5T", "4M", "3M"],
 			skittersmack: ["9M"],
+			slash: ["6M"], //new move
 			sleeptalk: ["9M", "7M", "6M", "5T", "4M", "3T"],
 			snatch: ["7T", "7L46", "6T", "6L46", "5T", "5L46", "4M", "4L51", "3M", "3L55"],
 			snore: ["7T", "6T", "3T"],
@@ -43543,6 +43592,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trick: ["9M", "9L46", "7T", "7L58", "6T", "6L58", "5T", "5L58", "4T", "4L66"],
 			trickroom: ["9M", "7M", "6M", "5M", "4M"],
 			willowisp: ["9M", "9L16", "7M", "7L16", "6M", "6L13", "5M", "5L13", "4M", "4L23", "3L32"],
+			zenheadbutt: ["6M"], //new move
 		},
 		eventData: [
 			{generation: 3, level: 37, abilities: ["insomnia"], moves: ["helpinghand", "feintattack", "shadowball", "curse"]},
@@ -44457,6 +44507,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			hail: ["8M", "8L40", "7M", "7L54", "6M", "6L40", "5M", "5L40", "4M", "4L40"],
 			haze: ["9M"],
 			headbutt: ["9L1", "8L1", "4T"],
+			healblock: ["6M"], //new move
 			helpinghand: ["9M"],
 			hex: ["9M", "9L0", "8M", "8L0"],
 			hiddenpower: ["7M", "6M", "5M", "4M"],
@@ -44473,11 +44524,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			leer: ["9L1", "8L1", "7L1", "6L1", "5L1", "4L1"],
 			lightscreen: ["9M", "8M", "7M", "6M", "5M", "4M"],
 			mudslap: ["4T"],
+			nastyplot: ["6M"], //new move
 			naturalgift: ["4M"],
 			nightshade: ["9M"],
 			ominouswind: ["7L1", "6L22", "5L22", "4T", "4L22"],
 			painsplit: ["9M", "7T", "6T", "5T", "4T"],
 			payback: ["8M", "7M", "6M", "5M", "4M"],
+			phantomforce: ["6M"], //new move
 			poltergeist: ["9M", "8T"],
 			powdersnow: ["9L1", "8L1", "7L1", "6L1", "5L1", "4L1"],
 			protect: ["9M", "9L1", "8M", "8L1", "7M", "6M", "5M", "4M"],
@@ -50060,6 +50113,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			closecombat: ["8M"],
 			confide: ["7M", "6M"],
 			cosmicpower: ["8M"],
+			cottonguard: ["6M"], //new move
 			covet: ["7T", "6T", "5T"],
 			cut: ["6M", "5M", "4M"],
 			defensecurl: ["8L1", "7L1", "6L1", "5L1", "4L1"],
@@ -50067,7 +50121,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dizzypunch: ["7L36", "6L36", "5L36", "4L36"],
 			doublekick: ["8L20"],
 			doubleteam: ["7M", "6M", "5M", "4M"],
+			drainingkiss: ["6M"], //new move
 			drainpunch: ["8M", "7T", "6T", "5T", "4M"],
+			dynamicpunch: ["6M"], //new move
 			encore: ["8M"],
 			endeavor: ["7T", "6T", "5T", "4T"],
 			endure: ["8M", "7L6", "6L6", "5L6", "4M", "4L6"],
@@ -50100,6 +50156,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			lastresort: ["7T", "6T", "5T", "4T"],
 			lowkick: ["8M", "7T", "6T", "5T", "4T"],
 			lowsweep: ["8M", "7M", "6M", "5M"],
+			machpunch: ["6M"], //new move
 			magiccoat: ["8L1", "7T", "7L1", "6T", "6L1", "5T", "5L1", "4T", "4L1"],
 			megakick: ["8M"],
 			megapunch: ["8M"],
@@ -50132,6 +50189,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sunnyday: ["8M", "7M", "6M", "5M", "4M"],
 			swagger: ["7M", "6M", "5M", "4M"],
 			swift: ["8M", "4T"],
+			swordsdance: ["6M"], //new move
 			thunder: ["8M", "7M", "6M", "5M", "4M"],
 			thunderbolt: ["8M", "7M", "6M", "5M", "4M"],
 			thunderpunch: ["8M", "7T", "6T", "5T", "4T"],
@@ -54598,6 +54656,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			firespin: ["9M"],
 			flamecharge: ["9M", "9L15", "7M", "7L15", "6M", "6L15", "5M", "5L15"],
 			flamethrower: ["9M", "9L43", "7M", "7L43", "6M", "6L43", "5M", "5L43"],
+			flamewheel: ["6M"], //new move
 			flareblitz: ["9M", "9L62", "7L62", "6L62", "6S1", "5L62", "5S0"],
 			fling: ["9M", "7M", "6M", "5M"],
 			focusblast: ["9M", "7M", "6M", "5M"],
@@ -55072,9 +55131,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			cut: ["6M", "5M"],
 			detect: ["7L11", "6L11", "5L11"],
 			dig: ["6M", "5M"],
+			doubleedge: ["6M"], //new move
 			doubleteam: ["7M", "6M", "5M"],
 			dreameater: ["7M", "6M", "5M"],
 			endeavor: ["7T", "6T", "5T"],
+			endure: ["6M"], //new move
 			facade: ["7M", "6M", "5M"],
 			firepunch: ["7T", "6T", "5T"],
 			flamethrower: ["7M", "6M", "5M"],
@@ -55587,6 +55648,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dig: ["6M", "5M"],
 			doubleteam: ["7M", "6M", "5M"],
 			endeavor: ["7T", "6T", "5T"],
+			endure: ["6M"], //new move
 			energyball: ["7M", "6M", "5M"],
 			facade: ["7M", "6M", "5M"],
 			flash: ["6M", "5M"],
@@ -55734,6 +55796,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dig: ["6M", "5M"],
 			doubleteam: ["7M", "6M", "5M"],
 			endeavor: ["7T", "6T", "5T"],
+			endure: ["6M"], //new move
 			facade: ["7M", "6M", "5M"],
 			fireblast: ["7M", "6M", "5M"],
 			firepledge: ["7T"],
@@ -55741,6 +55804,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			flameburst: ["7L1", "6L1", "5L1"],
 			flamecharge: ["7M", "6M", "5M"],
 			flamethrower: ["7M", "6M", "5M"],
+			flamewheel: ["6M"], //new move
 			fling: ["7M", "6M", "5M"],
 			focusblast: ["7M", "6M", "5M"],
 			focuspunch: ["7T", "6T"],
@@ -55891,8 +55955,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dive: ["6M", "5M"],
 			doubleteam: ["7M", "6M", "5M"],
 			endeavor: ["7T", "6T", "5T"],
+			endure: ["6M"], //new move
 			facade: ["7M", "6M", "5M"],
 			fling: ["7M", "6M", "5M"],
+			flipturn: ["6M"], //new move
 			focusblast: ["7M", "6M", "5M"],
 			focuspunch: ["7T", "6T"],
 			frustration: ["7M", "6M", "5M"],
@@ -55913,6 +55979,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			knockoff: ["7T", "6T", "5T"],
 			leer: ["7L1", "6L1", "5L1"],
 			lick: ["7L1", "6L1", "5L1"],
+			liquidation: ["6M"], //new move
 			lowkick: ["7T", "6T", "5T"],
 			lowsweep: ["7M", "6M", "5M"],
 			payback: ["7M", "6M", "5M"],
@@ -56844,6 +56911,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	excadrill: {
 		learnset: {
 			aerialace: ["9M", "7M", "6M", "5M"],
+			agility: ["6M"], //new move
 			attract: ["8M", "7M", "6M", "5M"],
 			bodyslam: ["9M"],
 			brickbreak: ["9M", "8M", "7M", "6M", "5M"],
@@ -56876,6 +56944,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			irondefense: ["9M", "8M", "7T", "6T", "5T"],
 			ironhead: ["9M", "8M", "7T", "6T", "5T"],
 			magnetrise: ["7T", "6T", "5T"],
+			megahorn: ["6M"], //new move
 			metalclaw: ["9M", "9L16", "8L16", "7L15", "6L15", "5L15"],
 			metalsound: ["9M"],
 			mudshot: ["9M", "8M"],
@@ -57982,6 +58051,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			facade: ["8M", "7M", "6M", "5M"],
 			frustration: ["7M", "6M", "5M"],
 			gigaimpact: ["8M", "7M", "6M", "5M"],
+			gunkshot: ["6M"], //new move
 			gyroball: ["8M", "7M", "6M", "5M"],
 			hex: ["8M"],
 			hiddenpower: ["7M", "6M", "5M"],
@@ -58030,6 +58100,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			throatchop: ["8M", "7T"],
 			toxic: ["8L50", "7M", "7L44", "6M", "6L44", "5M", "5L44"],
 			toxicspikes: ["8M", "5D"],
+			uturn: ["6M"], //new move
 			venomdrench: ["8M", "8L58", "7L47", "6L47"],
 			venoshock: ["8M", "8L26", "7M", "7L28", "6M", "6L28", "5M", "5L28"],
 			xscissor: ["8M", "7M", "6M", "5M"],
@@ -58854,6 +58925,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			honeclaws: ["9L1", "8L1", "6M", "5M"],
 			hyperbeam: ["9M", "8M", "7M", "6M", "5M"],
 			incinerate: ["6M", "5M"],
+			ironhead: ["6M"], //new move
 			irontail: ["8M", "7T", "6T", "5T"],
 			knockoff: ["9M", "7T", "6T", "5T"],
 			lashout: ["9M", "8T"],
@@ -59556,6 +59628,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dragontail: ["9M", "7M", "6M", "5M"],
 			drainpunch: ["9M", "8M", "7T", "6T", "5T", "5S0"],
 			dualchop: ["7T", "6T", "5T"],
+			dynamicpunch: ["6M"], //new move
 			encore: ["9M"],
 			endeavor: ["9M"],
 			endure: ["9M", "8M"],
@@ -59591,6 +59664,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			metronome: ["9M"],
 			outrage: ["9M", "8M", "7T", "6T", "5T"],
 			payback: ["9L1", "8M", "8L1", "7M", "7L20", "6M", "6L23", "5M", "5L23", "5S0"],
+			partingshot: ["6M"], //new move
 			poisonjab: ["9M", "8M", "7M", "6M", "5M"],
 			poweruppunch: ["6M"],
 			protect: ["9M", "8M", "8L20", "7M", "6M", "5M"],
@@ -60402,6 +60476,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			belch: ["8L33", "7L49", "6L49"],
 			bodypress: ["8M"],
 			bodyslam: ["8M", "8L24", "7L25", "6L25", "5L25"],
+			bulletseed: ["6M"], //new move
 			clearsmog: ["8L12", "7L34", "6L34", "5L34"],
 			confide: ["7M", "6M"],
 			corrosivegas: ["8T"],
@@ -60419,6 +60494,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			gigadrain: ["8M", "7T", "6T", "5T"],
 			gigaimpact: ["8M", "7M", "6M", "5M"],
 			gunkshot: ["8M", "8L43", "7T", "7L54", "6T", "6L54", "5T", "5L54"],
+			healblock: ["6M"], //new move
 			hiddenpower: ["7M", "6M", "5M"],
 			hyperbeam: ["8M", "7M", "6M", "5M"],
 			infestation: ["7M", "6M"],
@@ -60426,6 +60502,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			painsplit: ["8L39", "7T", "6T", "5T"],
 			payback: ["8M", "7M", "6M", "5M"],
 			poisongas: ["8L1", "7L1", "6L1", "5L1"],
+			poisonjab: ["6M"], //new move
 			pound: ["8L1", "7L1", "6L1", "5L1"],
 			protect: ["8M", "7M", "6M", "5M"],
 			psychic: ["8M", "7M", "6M", "5M"],
@@ -63189,6 +63266,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["7M", "6M", "5M"],
 			uturn: ["9M", "7M", "6M", "5M"],
 			voltswitch: ["9M", "7M", "6M", "5M"],
+			waterfall: ["6M"], //new move
 			wildcharge: ["9M", "9L5", "7M", "6M", "5M"],
 			zapcannon: ["9L1", "7L1", "6L1"],
 			zenheadbutt: ["9M"],
@@ -63542,11 +63620,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			flameburst: ["7L1", "6L1", "5L1"],
 			flamecharge: ["9M", "7M", "6M", "5M"],
 			flamethrower: ["9M", "8M", "7M", "6M", "5M"],
+			flamewheel: ["6M"], //new move
 			flareblitz: ["9M"],
 			flash: ["6M", "5M"],
 			frustration: ["7M", "6M", "5M"],
 			gigaimpact: ["9M", "8M", "7M", "6M", "5M"],
 			haze: ["9M"],
+			healblock: ["6M"], //new move
 			heatwave: ["9M", "8M", "7T", "6T", "5T", "5S0"],
 			hex: ["9M", "9L1", "8M", "8L1", "7L1", "6L1", "5L1"],
 			hiddenpower: ["7M", "6M", "5M"],
@@ -64267,6 +64347,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			camouflage: ["7L17", "6L17", "5L17"],
 			charge: ["8L20"],
 			confide: ["7M", "6M"],
+			crunch: ["6M"], //new move
 			curse: ["8E", "7E", "6E", "5E", "5D"],
 			dig: ["8M", "6M", "5M"],
 			discharge: ["8L45", "7L25", "6L25", "5L25"],
@@ -64282,10 +64363,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			fissure: ["8L55", "7L1", "6L1", "5L61"],
 			flail: ["8L50", "7L1", "6L1", "5L55"],
 			flash: ["6M", "5M"],
+			flashcannon: ["6M"], //new move
 			foulplay: ["8M", "7T", "6T", "5T"],
 			frustration: ["7M", "6M", "5M"],
 			hiddenpower: ["7M", "6M", "5M"],
+			icefang: ["6M"], //new move
 			infestation: ["7M", "6M"],
+			irondefense: ["6M"], //new move
 			lashout: ["8T"],
 			magnetrise: ["7T", "6T", "5T"],
 			mefirst: ["7E", "6E"],
@@ -67841,6 +67925,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			grassyglide: ["9M"],
 			grassyterrain: ["9M"],
 			growl: ["9L1", "7L1", "6L1"],
+			growth: ["6M"], //new move
 			gyroball: ["9M", "7M", "6M"],
 			hammerarm: ["9L1", "7L1", "6L1"],
 			helpinghand: ["9M", "7T", "6T"],
@@ -68376,6 +68461,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			falseswipe: ["9M"],
 			feintattack: ["7L33", "6L33"],
 			fling: ["9M", "7M", "6M"],
+			flipturn: ["6M"], //new move
 			frustration: ["7M", "6M"],
 			gigaimpact: ["9M", "7M", "6M"],
 			grassknot: ["9M", "7M", "6M"],
@@ -68398,10 +68484,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			matblock: ["7L1", "6L1", "6S1"],
 			mudshot: ["9M"],
 			mudslap: ["9M"],
+			nastyplot: ["6M"], //new move
 			nightslash: ["9L1", "7L1", "6L1"],
 			pound: ["9L1", "7L1", "6L1"],
 			poweruppunch: ["6M"],
 			protect: ["9M", "7M", "6M"],
+			psyshock: ["6M"], //new move
 			quickattack: ["9L1", "7L1", "6L8"],
 			raindance: ["9M", "7M", "6M"],
 			rest: ["9M", "7M", "6M"],
@@ -68862,6 +68950,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			flail: ["9L15", "8L15", "7L16", "6L16"],
 			flamecharge: ["9M", "9L1", "8L1", "7M", "7L39", "6M", "6L39"],
 			flamethrower: ["9M", "8M", "7M", "6M"],
+			flamewheel: ["6M"], //new move
 			flareblitz: ["9M", "9L1", "8M", "8L1", "7L1", "6L1"],
 			fly: ["9M", "9L74", "8M", "8L74", "7M", "6M"],
 			frustration: ["7M", "6M"],
@@ -68907,6 +68996,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["7M", "6M"],
 			upperhand: ["9M"],
 			uturn: ["9M", "8M", "7M", "6M"],
+			whirlwind: ["6M"], //new move
 			willowisp: ["9M", "8M", "7M", "6M"],
 			workup: ["8M", "7M"],
 		},
@@ -68952,6 +69042,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			calmmind: ["7M", "6M"],
 			confide: ["7M", "6M"],
 			confuseray: ["9M"],
+			dazzlinggleam: ["6M"], //new move
 			defog: ["7T"],
 			doubleteam: ["7M", "6M"],
 			drainingkiss: ["9M", "9L25", "7L25", "6L25"],
@@ -69008,6 +69099,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["7M", "6M"],
 			uturn: ["9M", "7M", "6M"],
 			weatherball: ["9M"],
+			whirlwind: ["6M"], //new move
 		},
 	},
 	vivillonfancy: {
@@ -69242,6 +69334,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			doubleedge: ["9M"],
 			doubleteam: ["7M", "6M"],
 			echoedvoice: ["9L33", "7M", "7L33", "6M", "6L33"],
+			earthpower: ["6M"], //new move
 			ember: ["9L1", "7L1", "6L5"],
 			endeavor: ["9M", "9L28", "7T", "7L28", "6T", "6L28"],
 			endure: ["9M"],
@@ -69467,6 +69560,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			covet: ["7T"],
 			dazzlinggleam: ["9M", "6M"],
 			doubleteam: ["6M"],
+			drainingkiss: ["6M"], //new move
 			echoedvoice: ["6M"],
 			endeavor: ["7T"],
 			endure: ["9M"],
@@ -69481,7 +69575,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			healbell: ["7T"],
 			helpinghand: ["9M", "7T"],
 			hiddenpower: ["6M"],
+			hyperbeam: ["6M"], //new move
 			lightofruin: ["9L50", "6L50"],
+			lightscreen: ["6M"], //new move
 			luckychant: ["9L10", "6L10"],
 			magicalleaf: ["9M", "9L25", "6L25"],
 			magiccoat: ["7T"],
@@ -69701,6 +69797,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			leafstorm: ["9M"],
 			leechseed: ["9L12", "7L12", "6L12"],
 			magicalleaf: ["9M"],
+			megahorn: ["6M"], //new move
 			milkdrink: ["9L58", "7L58", "6L58"],
 			mudshot: ["9M"],
 			mudslap: ["9M"],
@@ -69887,6 +69984,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			focuspunch: ["7T", "6T"],
 			foulplay: ["8M", "7T", "6T"],
 			frustration: ["7M", "6M"],
+			gigadrain: ["6M"], //new move
 			gigaimpact: ["8M", "7M", "6M"],
 			grassknot: ["8M", "7M", "6M"],
 			gunkshot: ["8M", "7T", "6T"],
@@ -69974,12 +70072,16 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			charm: ["7L38", "6L38"],
 			confide: ["7M", "6M"],
 			cottonguard: ["7L48", "6L48"],
+			crunch: ["6M"], //new move
 			darkpulse: ["7M", "6M"],
 			dig: ["6M"],
+			doubleedge: ["6M"], //new move
 			doubleteam: ["7M", "6M"],
 			echoedvoice: ["7M", "6M"],
 			endeavor: ["7T", "6T"],
+			endure: ["6M"], //new move
 			facade: ["7M", "6M"],
+			firefang: ["6M"], //new move
 			flash: ["6M"],
 			frustration: ["7M", "6M"],
 			gigaimpact: ["7M", "6M"],
@@ -69988,7 +70090,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			headbutt: ["7L12", "6L12"],
 			helpinghand: ["7T", "6T"],
 			hiddenpower: ["7M", "6M"],
+			hyperbeam: ["6M"], //new move
 			hypervoice: ["7T", "6T"],
+			icefang: ["6M"], //new move
 			irontail: ["7T", "6T"],
 			lastresort: ["7T", "6T"],
 			mimic: ["7E", "6E"],
@@ -70016,6 +70120,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			tackle: ["7L1", "6L1"],
 			tailwhip: ["7L15", "6L15"],
 			takedown: ["7L35", "6L35"],
+			thunderfang: ["6M"], //new move
 			thunderwave: ["7M", "6M"],
 			toxic: ["7M", "6M"],
 			uproar: ["7T", "6T"],
@@ -70136,6 +70241,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			gigaimpact: ["9M", "8M", "7M", "6M"],
 			gravity: ["9M", "7T", "6T"],
 			healbell: ["7T", "6T"],
+			healblock: ["6M"], //new move
 			helpinghand: ["9M", "9L12", "8M", "8L12", "7T", "7L1", "6T", "6L1"],
 			hiddenpower: ["7M", "6M"],
 			hyperbeam: ["9M", "8M", "7M", "6M"],
@@ -70178,6 +70284,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sleeptalk: ["9M", "8M", "7M", "6M"],
 			snatch: ["7T", "6T"],
 			snore: ["8M", "7T", "6T"],
+			spikes: ["6M"], //new move
+			stealthrock: ["6M"], //new move
 			storedpower: ["9M"],
 			substitute: ["9M", "8M", "7M", "6M"],
 			suckerpunch: ["9L24", "8L24", "7L48", "6L48"],
@@ -70185,15 +70293,18 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			swagger: ["7M", "6M"],
 			swift: ["9M", "8M"],
 			tailslap: ["8M"],
+			taunt: ["6M"], //new move
 			telekinesis: ["7T"],
 			terablast: ["9M"],
 			thunderbolt: ["9M", "8M", "7M", "6M"],
 			thunderwave: ["9M", "8M", "7M", "6M"],
 			torment: ["7M", "6M"],
 			toxic: ["7M", "6M"],
+			toxicspikes: ["6M"], //new move
 			trailblaze: ["9M"],
 			trick: ["9M", "8M", "7T", "6T"],
 			trickroom: ["9M", "8M", "7M", "6M"],
+			wish: ["6M"], //new move
 			wonderroom: ["8M", "7T", "6T"],
 			workup: ["8M", "7M"],
 			zenheadbutt: ["9M", "8M", "7T", "6T"],
@@ -70217,6 +70328,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			disarmingvoice: ["9M", "9L1", "8L1", "7L22", "6L22"],
 			doubleteam: ["7M", "6M"],
 			dreameater: ["7M", "6M"],
+			earthpower: ["6M"], //new move
 			echoedvoice: ["7M", "6M"],
 			endure: ["9M", "8M"],
 			energyball: ["9M", "8M", "7M", "6M"],
@@ -70286,6 +70398,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trailblaze: ["9M"],
 			trick: ["9M", "8M", "7T"],
 			trickroom: ["9M", "8M", "7M", "6M"],
+			waterpulse: ["6M"], //new move
 			wonderroom: ["8M", "7T"],
 			workup: ["8M", "7M"],
 			zenheadbutt: ["9M", "8M", "7T"],
@@ -70475,6 +70588,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			tackle: ["8L1"],
 			toxic: ["7M", "6M"],
 			wideguard: ["6S0"],
+			zenheadbutt: ["6M"], //new move
 		},
 		eventData: [
 			{generation: 6, level: 50, gender: "F", nature: "Quiet", moves: ["wideguard", "kingsshield", "shadowball", "flashcannon"], pokeball: "cherishball"},
@@ -70581,10 +70695,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			gigaimpact: ["8M", "7M", "6M"],
 			gyroball: ["8M", "7M", "6M"],
 			healbell: ["7T", "6T"],
+			healblock: ["6M"], //new move
 			healpulse: ["8L1", "7L1", "6L1", "6S0"],
 			helpinghand: ["8M", "7T", "6T"],
 			hiddenpower: ["7M", "6M"],
 			hyperbeam: ["8M", "7M", "6M"],
+			hypnosis: ["6M"], //new move
 			lightscreen: ["8M", "7M", "6M"],
 			magiccoat: ["7T", "6T"],
 			metronome: ["8M"],
@@ -70731,6 +70847,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			round: ["8M", "8L18", "7M", "7L13", "6M", "6L13"],
 			safeguard: ["8M", "7M", "7L67", "6M", "6L67"],
 			secretpower: ["6M"],
+			selfdestruct: ["6M"], //new move
 			sleeptalk: ["8M", "7M", "6M"],
 			snore: ["8M", "7T", "6T"],
 			stickyweb: ["8L42"],
@@ -70740,6 +70857,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			surf: ["8M", "7M", "6M"],
 			swagger: ["7M", "6M"],
 			sweetscent: ["8L1", "7L1", "6L1"],
+			swordsdance: ["6M"], //new move
 			tackle: ["8L1", "7L1", "6L1"],
 			thief: ["8M", "7M", "6M"],
 			thunder: ["8M"],
@@ -70850,7 +70968,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			bind: ["7T", "6T"],
 			block: ["7T", "6T"],
 			brutalswing: ["8M", "7M"],
+			bulkup: ["6M"], //new move
 			calmmind: ["9M", "8M", "7M", "6M"],
+			closecombat: ["6M"], //new move
 			confide: ["7M", "6M"],
 			constrict: ["7L1", "6L1"],
 			cut: ["6M"],
@@ -70870,6 +70990,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			gigaimpact: ["9M", "8M", "7M", "6M"],
 			gravity: ["9M"],
 			guardswap: ["8M"],
+			healblock: ["6M"], //new move
 			helpinghand: ["9M"],
 			hiddenpower: ["7M", "6M"],
 			hyperbeam: ["9M", "8M", "7M", "6M"],
@@ -70884,6 +71005,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			payback: ["9L9", "8M", "8L9", "7M", "7L27", "6M", "6L27"],
 			peck: ["9L1", "8L1", "7L1", "6L1"],
 			pluck: ["9L12", "8L12", "7L35", "6L35"],
+			poisonjab: ["6M"], //new move
 			protect: ["9M", "8M", "7M", "6M"],
 			psybeam: ["9M", "9L15", "8L15", "7L21", "6L21"],
 			psychic: ["9M", "8M", "7M", "6M"],
@@ -70910,6 +71032,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			snatch: ["7T", "6T"],
 			snore: ["8M", "7T", "6T"],
 			spite: ["9M", "7T", "6T"],
+			stealthrock: ["6M"], //new move
 			storedpower: ["9M", "8M"],
 			substitute: ["9M", "8M", "7M", "6M"],
 			sunnyday: ["9M", "8M", "7M", "6M"],
@@ -70931,6 +71054,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			trick: ["9M"],
 			trickroom: ["9M", "8M", "7M", "6M"],
 			wrap: ["9L1", "8L1"],
+			zenheadbutt: ["6M"], //new move
 		},
 		eventData: [
 			{generation: 6, level: 50, nature: "Adamant", ivs: {hp: 31, atk: 31}, abilities: ["contrary"], moves: ["superpower", "knockoff", "facade", "rockslide"], pokeball: "cherishball"},
@@ -71039,6 +71163,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			bulkup: ["8M", "7M", "6M"],
 			bulldoze: ["8M", "7M", "6M"],
 			clamp: ["7L20", "6L20"],
+			closecombat: ["6M"], //new move
 			confide: ["7M", "6M"],
 			crosschop: ["8L48", "7L55", "6L55"],
 			cut: ["6M"],
@@ -71121,6 +71246,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			torment: ["7M", "6M"],
 			toxic: ["7M", "6M"],
 			uproar: ["8M"],
+			waterfall: ["6M"], //new move
 			watergun: ["8L1", "7L1", "6L4"],
 			waterpulse: ["7T", "6T"],
 			whirlpool: ["8M"],
@@ -71241,6 +71367,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			mudslap: ["9M"],
 			outrage: ["9M", "9L66", "8M", "8L66", "7T", "6T"],
 			playrough: ["9M", "8M"],
+			poisonjab: ["6M"], //new move
 			poisontail: ["9M", "9L25", "8L25", "7L23", "6L23"],
 			protect: ["9M", "8M", "7M", "6M"],
 			raindance: ["9M", "8M", "7M", "6M"],
@@ -71542,6 +71669,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			magnetrise: ["7T", "6T"],
 			megakick: ["8M"],
 			megapunch: ["8M"],
+			morningsun: ["6M"], //new move
 			mudslap: ["8L1"],
 			paraboliccharge: ["8L1", "7L1", "6L1"],
 			pound: ["8L1"],
@@ -71990,6 +72118,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			tackle: ["9L1", "8L1", "7L1", "6L1"],
 			tailwhip: ["9L1", "8L1", "7L1", "6L1"],
 			takedown: ["9M", "9L1", "8L1"],
+			taunt: ["6M"], //new move
 			telekinesis: ["7T"],
 			terablast: ["9M", "9S3"],
 			toxic: ["7M", "6M"],
@@ -72009,6 +72138,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			acrobatics: ["9M", "8M", "7M", "6M"],
 			aerialace: ["9M", "9L12", "8L12", "7M", "7L16", "6M", "6L16"],
 			agility: ["9M", "8M", "7E", "6E"],
+			airslash: ["6M"], //new move
 			allyswitch: ["8M", "7T", "7E", "6E"],
 			assurance: ["8M"],
 			attract: ["8M", "7M", "6M"],
@@ -72256,6 +72386,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sandstorm: ["9M", "8M", "7M", "6M"],
 			sandtomb: ["9M", "8M"],
 			secretpower: ["6M"],
+			selfdestruct: ["6M"], //new move
 			sharpen: ["7L8", "6L8"],
 			skillswap: ["9M", "9L40", "8M", "8L40", "7T", "7L40", "6T", "6L40"],
 			sleeptalk: ["9M", "8M", "7M", "6M"],
@@ -72478,6 +72609,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			focusblast: ["9M", "8M", "7M", "6M"],
 			focuspunch: ["9M", "7T", "6T"],
 			frustration: ["7M", "6M"],
+			gigadrain: ["6M"], //new move
 			gigaimpact: ["9M", "8M", "7M", "6M"],
 			hail: ["8M", "7M", "6M"],
 			hiddenpower: ["7M", "6M"],
@@ -72565,6 +72697,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			hyperbeam: ["9M"],
 			icebeam: ["9M"],
 			icespinner: ["9M"],
+			irondefense: ["6M"], //new move
 			ironhead: ["9M", "9L49"],
 			irontail: ["9L0"],
 			knockoff: ["9M"],
@@ -72621,6 +72754,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			flashcannon: ["9M", "9L36", "8M", "8L36", "7M", "6M"],
 			foulplay: ["9M", "9L48", "8M", "8L48", "7T", "7L27", "6T", "6L27"],
 			frustration: ["7M", "6M"],
+			futuresight: ["6M"], //new move
 			gigaimpact: ["9M", "8M", "7M", "6M"],
 			healblock: ["7L50", "6L50"],
 			hiddenpower: ["7M", "6M"],
@@ -72795,6 +72929,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			grassyterrain: ["9M"],
 			growth: ["9L24", "8L24", "7L1", "6L8"],
 			haze: ["9M"],
+			healblock: ["6M"], //new move
 			hex: ["9M", "9L20", "8M", "8L20"],
 			hiddenpower: ["7M", "6M"],
 			honeclaws: ["6M"],
@@ -72965,6 +73100,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			explosion: ["8L1", "7M", "7L1", "6M", "6L1"],
 			facade: ["8M", "7M", "6M"],
 			fireblast: ["8M", "7M", "6M"],
+			firespin: ["6M"], //new move
 			flamecharge: ["7M", "6M"],
 			flamethrower: ["8M", "7M", "6M"],
 			flash: ["6M"],
@@ -72979,6 +73115,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			hex: ["8M"],
 			hiddenpower: ["7M", "6M"],
 			hyperbeam: ["8M", "7M", "6M"],
+			hypnosis: ["6M"], //new move
 			imprison: ["8M"],
 			incinerate: ["6M"],
 			leechseed: ["8L16", "7L20", "6L20"],
@@ -73005,7 +73142,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			scaryface: ["8M", "8L24", "7L1", "6L4"],
 			secretpower: ["6M"],
 			seedbomb: ["8M", "8L32", "7T", "7L48", "6T", "6L48"],
+			selfdestruct: ["6M"], //new move
 			shadowball: ["8M", "8L36", "7M", "7L36", "6M", "6L36"],
+			shadowclaw: ["6M"], //new move
 			shadowsneak: ["8L1", "7L30", "6L30"],
 			skillswap: ["8M", "7T", "6T"],
 			skittersmack: ["8T"],
@@ -73194,6 +73333,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			hardpress: ["9M"],
 			heavyslam: ["9M"],
 			highhorsepower: ["9M"],
+			hydropump: ["6M"], //new move
 			hyperbeam: ["9M"],
 			icebeam: ["9M"],
 			icefang: ["9M", "9L24"],
@@ -73502,6 +73642,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			frustration: ["7M", "6M"],
 			gigaimpact: ["8M", "7M", "6M"],
 			gust: ["8L1"],
+			healblock: ["6M"], //new move
 			heatwave: ["8M", "7T", "7S4", "6T"],
 			hiddenpower: ["7M", "6M"],
 			honeclaws: ["6M"],
@@ -73592,6 +73733,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			highhorsepower: ["8M"],
 			hyperbeam: ["8M", "7M", "6M"],
 			hypervoice: ["8M", "7T", "6T"],
+			ironhead: ["6M"], //new move
 			irontail: ["8M", "7T", "6T"],
 			landswrath: ["8L48", "8S9", "7L26", "7S2", "7S3", "7S4", "7S5", "7S6", "6L26", "6S1"],
 			outrage: ["8M", "8L88", "7T", "7L80", "7S7", "7S8", "6T", "6L93", "6S1"],
@@ -73805,6 +73947,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			gravity: ["9M", "7T", "6T"],
 			guardsplit: ["9L29", "7L29", "6L29"],
 			gunkshot: ["9M", "7T", "6T"],
+			healblock: ["6M"], //new move
 			hiddenpower: ["7M", "6M"],
 			hyperbeam: ["9M", "7M", "6M"],
 			hyperspacefury: ["9L85", "7L1", "6L1"],
@@ -79209,6 +79352,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			attract: ["8M", "7M"],
 			blizzard: ["8M", "7M"],
 			block: ["7T"],
+			bodyslam: ["6M"], //new move
 			breakingswipe: ["8M"],
 			bulldoze: ["8M", "7M"],
 			calmmind: ["8M", "7M"],
@@ -79223,6 +79367,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dragonrage: ["7L21"],
 			dragonrush: ["8E", "7E"],
 			dragontail: ["7M"],
+			earthpower: ["6M"], //new move
 			earthquake: ["8M", "7M"],
 			echoedvoice: ["8L1", "7M", "7L1", "7S0"],
 			endeavor: ["7T"],
@@ -79292,6 +79437,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			twister: ["8L5", "7L5"],
 			uproar: ["8M", "7T"],
 			waterpulse: ["7T"],
+			whirlwind: ["6M"], //new move
 			workup: ["8M", "7M"],
 		},
 		eventData: [
