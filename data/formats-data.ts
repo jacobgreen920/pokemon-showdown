@@ -5850,7 +5850,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	terapagos: {
 		tier: "Uber",
 		doublesTier: "DUber",
-		natDexTier: "OU",
+		natDexTier: "16",
 	},
 	terapagosstellar: {
 		tier: "Uber",
