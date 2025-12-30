@@ -26,6 +26,7 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 			} else {
 				this.add('-status', target, 'par');
 			}
+			this.effectState.time = 0;
 		},
 		onModifySpePriority: -101,
 		onModifySpe(spe, pokemon) {
@@ -38,9 +39,11 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 		},
 		onBeforeMovePriority: 1,
 		onBeforeMove(pokemon) {
-			if (this.randomChance(1, 4)) {
+			if (this.effectState.time === 2) {
 				this.add('cant', pokemon, 'par');
 				return false;
+			} else {
+				this.effectState.time++;
 			}
 		},
 	},
