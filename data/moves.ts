@@ -974,7 +974,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		secondary: {
 			chance: 30,
-			volatileStatus: 'confusion',
+			boosts: {
+				atk: -1,
+			},
 		},
 		target: "normal",
 		type: "Fighting",
@@ -2847,7 +2849,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { protect: 1, mirror: 1, metronome: 1 },
 		secondary: {
 			chance: 10,
-			volatileStatus: 'confusion',
+			boosts: {
+				atk: -1,
+			},
 		},
 		target: "normal",
 		type: "Psychic",
@@ -3940,7 +3944,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { contact: 1, protect: 1, mirror: 1, punch: 1, metronome: 1 },
 		secondary: {
 			chance: 20,
-			volatileStatus: 'confusion',
+			boosts: {
+				atk: -1,
+			},
 		},
 		target: "normal",
 		type: "Normal",
@@ -14530,10 +14536,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 20,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
-		secondary: {
-			chance: 10,
-			volatileStatus: 'confusion',
-		},
 		target: "normal",
 		type: "Psychic",
 		contestType: "Beautiful",
@@ -15786,7 +15788,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
 		secondary: {
 			chance: 20,
-			volatileStatus: 'confusion',
+			boosts: {
+				atk: -1,
+			},
 		},
 		target: "normal",
 		type: "Normal",
@@ -17008,7 +17012,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { protect: 1, mirror: 1, metronome: 1 },
 		secondary: {
 			chance: 10,
-			volatileStatus: 'confusion',
+			boosts: {
+				atk: -1,
+			},
 		},
 		target: "normal",
 		type: "Bug",
@@ -18855,7 +18861,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { protect: 1, mirror: 1 },
 		secondary: {
 			chance: 20,
-			volatileStatus: 'confusion',
+			boosts: {
+				atk: -1,
+			},
 		},
 		target: "normal",
 		type: "Fairy",
@@ -21396,7 +21404,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { protect: 1, mirror: 1, distance: 1, metronome: 1, pulse: 1 },
 		secondary: {
 			chance: 20,
-			volatileStatus: 'confusion',
+			boosts: {
+				atk: -1,
+			},
 		},
 		target: "any",
 		type: "Water",
