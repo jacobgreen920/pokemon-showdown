@@ -41,11 +41,15 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 		onBeforeMove(pokemon) {
 			if (this.effectState.time === 2) {
 				this.add('cant', pokemon, 'par');
+				this.effectState.time = 0;
 				return false;
 			} else {
 				this.effectState.time++;
 			}
 		},
+		onSwitchIn(pokemon) {
+			this.effectState.time = 0;
+		}
 	},
 	slp: {
 		name: 'slp',
