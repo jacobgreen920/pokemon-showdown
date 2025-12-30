@@ -9378,7 +9378,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		secondary: {
 			chance: 30,
-			volatileStatus: 'confusion',
+			boosts: {
+				atk: -1,
+			},
 		},
 		target: "any",
 		type: "Flying",
