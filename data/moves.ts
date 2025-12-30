@@ -21709,7 +21709,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	willowisp: {
 		num: 261,
-		accuracy: 85,
+		accuracy: 100,
 		basePower: 0,
 		category: "Status",
 		name: "Will-O-Wisp",
