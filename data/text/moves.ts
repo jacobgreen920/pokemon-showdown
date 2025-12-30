@@ -323,8 +323,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	axekick: {
 		name: "Axe Kick",
-		desc: "Has a 30% chance to confuse the target. If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
-		shortDesc: "30% confusion. User loses 50% max HP if miss.",
+		desc: "Has a 30% chance to lower the target's attack. If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
+		shortDesc: "30% atk drop. User loses 50% max HP if miss.",
 
 		damage: "#crash",
 	},
@@ -1034,8 +1034,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	confusion: {
 		name: "Confusion",
-		desc: "Has a 10% chance to confuse the target.",
-		shortDesc: "10% chance to confuse the target.",
+		desc: "Has a 10% chance to lower the target's attack.",
+		shortDesc: "10% chance to lower the target's attack.",
 	},
 	constrict: {
 		name: "Constrict",
@@ -1450,8 +1450,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	dizzypunch: {
 		name: "Dizzy Punch",
-		desc: "Has a 20% chance to confuse the target.",
-		shortDesc: "20% chance to confuse the target.",
+		desc: "Has a 20% chance to lower the target's attack.",
+		shortDesc: "20% chance to lower the target's attack.",
 		gen1: {
 			desc: "No additional effect.",
 			shortDesc: "No additional effect.",
@@ -3151,13 +3151,13 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	hurricane: {
 		name: "Hurricane",
-		desc: "Has a 30% chance to confuse the target. This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If the weather is Primordial Sea or Rain Dance, this move does not check accuracy. If the weather is Desolate Land or Sunny Day, this move's accuracy is 50%. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 70%.",
-		shortDesc: "30% chance to confuse target. Can't miss in rain.",
+		desc: "Has a 30% chance to lower the target's attack. This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If the weather is Primordial Sea or Rain Dance, this move does not check accuracy. If the weather is Desolate Land or Sunny Day, this move's accuracy is 50%. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 70%.",
+		shortDesc: "30% chance to lower target's atk. Can't miss in rain.",
 		gen7: {
-			desc: "Has a 30% chance to confuse the target. This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If the weather is Primordial Sea or Rain Dance, this move does not check accuracy. If the weather is Desolate Land or Sunny Day, this move's accuracy is 50%.",
+			desc: "Has a 30% chance to lower the target's attack. This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If the weather is Primordial Sea or Rain Dance, this move does not check accuracy. If the weather is Desolate Land or Sunny Day, this move's accuracy is 50%.",
 		},
 		gen5: {
-			desc: "Has a 30% chance to confuse the target. This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If the weather is Rain Dance, this move does not check accuracy. If the weather is Sunny Day, this move's accuracy is 50%.",
+			desc: "Has a 30% chance to lower the target's attack. This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If the weather is Rain Dance, this move does not check accuracy. If the weather is Sunny Day, this move's accuracy is 50%.",
 		},
 	},
 	hydrocannon: {
@@ -4907,8 +4907,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	psybeam: {
 		name: "Psybeam",
-		desc: "Has a 10% chance to confuse the target.",
-		shortDesc: "10% chance to confuse the target.",
+		desc: "Has a 10% chance to lower the target's attack.",
+		shortDesc: "10% chance to lower the target's attack.",
 	},
 	psyblade: {
 		name: "Psyblade",
@@ -5350,8 +5350,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	rockclimb: {
 		name: "Rock Climb",
-		desc: "Has a 20% chance to confuse the target.",
-		shortDesc: "20% chance to confuse the target.",
+		desc: "Has a 20% chance to lower the target's attack.",
+		shortDesc: "20% chance to lower the target's attack.",
 	},
 	rockpolish: {
 		name: "Rock Polish",
@@ -5758,8 +5758,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	signalbeam: {
 		name: "Signal Beam",
-		desc: "Has a 10% chance to confuse the target.",
-		shortDesc: "10% chance to confuse the target.",
+		desc: "Has a 10% chance to lower the target's attack.",
+		shortDesc: "10% chance to lower the target's attack.",
 	},
 	silktrap: {
 		name: "Silk Trap",
@@ -6422,8 +6422,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	strangesteam: {
 		name: "Strange Steam",
-		desc: "Has a 20% chance to confuse the target.",
-		shortDesc: "20% chance to confuse the target.",
+		desc: "Has a 20% chance to lower the target's attack.",
+		shortDesc: "20% chance to lower the target's attack.",
 	},
 	strength: {
 		name: "Strength",
@@ -7344,8 +7344,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	waterpulse: {
 		name: "Water Pulse",
-		desc: "Has a 20% chance to confuse the target.",
-		shortDesc: "20% chance to confuse the target.",
+		desc: "Has a 20% chance to lower the target's attack.",
+		shortDesc: "20% chance to lower the target's attack.",
 	},
 	watershuriken: {
 		name: "Water Shuriken",
