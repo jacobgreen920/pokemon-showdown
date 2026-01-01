@@ -29699,7 +29699,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			vacuumwave: ["9M", "4T"],
 			venoshock: ["8M", "7M", "6M", "5M"],
 			workup: ["8M", "7M", "5M"],
-			xscizzor: ["6M"], // custom
+			xscissor: ["6M"], // custom
 		},
 		eventData: [
 			{generation: 6, level: 50, gender: "F", nature: "Adamant", moves: ["bulletseed", "pinmissile", "closecombat", "megahorn"], pokeball: "cherishball"},
@@ -55561,7 +55561,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["7M", "6M", "5M"],
 			trick: ["8M", "7T", "6T", "5T"],
 			uturn: ["8M", "7M", "6M", "5M"],
-			xscizzor: ["6M"], //new move
+			xscissor: ["6M"], //new move
 		},
 		eventData: [
 			{generation: 5, level: 20, gender: "F", nature: "Jolly", isHidden: true, moves: ["fakeout", "foulplay", "encore", "swagger"]},
