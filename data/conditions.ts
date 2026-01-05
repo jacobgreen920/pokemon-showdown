@@ -62,8 +62,8 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 			} else {
 				this.add('-status', target, 'slp');
 			}
-			// 1-3 turns
-			this.effectState.startTime = this.random(2, 5);
+			// Changed so that pokemon always sleep 2 turns
+			this.effectState.startTime = 3;
 			this.effectState.time = this.effectState.startTime;
 
 			if (target.removeVolatile('nightmare')) {
