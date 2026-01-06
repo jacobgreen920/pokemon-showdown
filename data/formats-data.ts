@@ -915,7 +915,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	kangaskhanmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "16",
+		natDexTier: "9",
 	},
 	horsea: {
 		tier: "LC",
