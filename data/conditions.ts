@@ -529,6 +529,10 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 				this.debug('Rain water boost');
 				return this.chainModify(1.5);
 			}
+			if (move.type === 'Fire') {
+				this.debug('rain fire suppress');
+				return this.chainModify(0.5);
+			}
 		},
 		onFieldStart(field, source, effect) {
 			this.add('-weather', 'PrimordialSea', '[from] ability: ' + effect.name, `[of] ${source}`);
@@ -598,6 +602,10 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 			if (move.type === 'Fire') {
 				this.debug('Sunny Day fire boost');
 				return this.chainModify(1.5);
+			}
+			if (move.type === 'Water') {
+				this.debug('Sunny Day water suppress');
+				return this.chainModify(0.5);
 			}
 		},
 		onFieldStart(field, source, effect) {
