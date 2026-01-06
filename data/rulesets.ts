@@ -22,7 +22,7 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 		desc: "The standard ruleset for all official Smogon singles tiers (Ubers, OU, etc.)",
 		ruleset: [
 			'Standard AG',
-			'Sleep Clause Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Items Clause', 'Evasion Moves Clause',
+			'Sleep Clause Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Items Clause', 'Evasion Moves Clause', 
 		],
 	},
 	standardnext: {
@@ -95,8 +95,9 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 		desc: "The standard ruleset for all National Dex tiers",
 		ruleset: [
 			'Standard AG', 'NatDex Mod',
-			'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Clause', 'Sleep Clause Mod', 'No Freeze Mod'
+			'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Clause', 'Sleep Clause Mod', 'No Freeze Mod', 'zmoveclause', 'drypassclause',
 		],
+		banlist: ['Damp Rock', 'Heat Rock'],
 	},
 	natdexmod: {
 		effectType: 'ValidatorRule',

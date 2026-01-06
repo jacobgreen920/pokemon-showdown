@@ -262,15 +262,17 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	airslash: {
 		num: 403,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 80,
 		category: "Special",
 		name: "Air Slash",
 		pp: 15,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, distance: 1, metronome: 1, slicing: 1 },
 		secondary: {
-			chance: 30,
-			volatileStatus: 'flinch',
+			chance: 10,
+			boosts: {
+				spd: -1,
+			}
 		},
 		target: "any",
 		type: "Flying",

@@ -96,8 +96,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	airslash: {
 		name: "Air Slash",
-		desc: "Has a 30% chance to make the target flinch.",
-		shortDesc: "30% chance to make the target flinch.",
+		desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
+		shortDesc: "10% chance to lower the target's Sp. Def by 1.",
 	},
 	alloutpummeling: {
 		name: "All-Out Pummeling",
@@ -5550,8 +5550,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	scald: {
 		name: "Scald",
-		desc: "Has a 30% chance to burn the target. The target thaws out if it is frozen.",
-		shortDesc: "30% chance to burn the target. Thaws target.",
+		desc: "No additional effects.",
+		shortDesc: "No additional effects.",
 		gen5: {
 			desc: "Has a 30% chance to burn the target.",
 			shortDesc: "30% chance to burn the target.",
