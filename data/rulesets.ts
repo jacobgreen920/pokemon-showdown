@@ -95,7 +95,7 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 		desc: "The standard ruleset for all National Dex tiers",
 		ruleset: [
 			'Standard AG', 'NatDex Mod',
-			'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Clause', 'Sleep Clause Mod', 'No Freeze Mod', 'zmoveclause', 'drypassclause',
+			'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Clause', 'Sleep Clause Mod', 'No Freeze Mod', 'Z-Move Clause', 'DryPass Clause',
 		],
 		banlist: ['Damp Rock', 'Heat Rock'],
 	},
