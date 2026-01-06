@@ -97,7 +97,6 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 			'Standard AG', 'NatDex Mod',
 			'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Clause', 'Sleep Clause Mod', 'No Freeze Mod', 'Z-Move Clause', 'DryPass Clause',
 		],
-		banlist: ['Damp Rock', 'Heat Rock'],
 	},
 	natdexmod: {
 		effectType: 'ValidatorRule',
