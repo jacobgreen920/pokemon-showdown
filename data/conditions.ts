@@ -523,14 +523,6 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 		effectType: 'Weather',
 		duration: 0,
 		onTryMovePriority: 1,
-		onTryMove(attacker, defender, move) {
-			if (move.type === 'Fire' && move.category !== 'Status') {
-				this.debug('Primordial Sea fire suppress');
-				this.add('-fail', attacker, move, '[from] Primordial Sea');
-				this.attrLastMove('[still]');
-				return null;
-			}
-		},
 		onWeatherModifyDamage(damage, attacker, defender, move) {
 			if (defender.hasItem('utilityumbrella')) return;
 			if (move.type === 'Water') {
@@ -601,14 +593,6 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 		effectType: 'Weather',
 		duration: 0,
 		onTryMovePriority: 1,
-		onTryMove(attacker, defender, move) {
-			if (move.type === 'Water' && move.category !== 'Status') {
-				this.debug('Desolate Land water suppress');
-				this.add('-fail', attacker, move, '[from] Desolate Land');
-				this.attrLastMove('[still]');
-				return null;
-			}
-		},
 		onWeatherModifyDamage(damage, attacker, defender, move) {
 			if (defender.hasItem('utilityumbrella')) return;
 			if (move.type === 'Fire') {
