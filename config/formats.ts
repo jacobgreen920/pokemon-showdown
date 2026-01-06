@@ -2601,7 +2601,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Standard NatDex', 'Terastal Clause'],
 		banlist: [
 			'ND Uber', 'ND AG', 'Moody', 'Power Construct', 'King\'s Rock',
-			'Quick Claw', 'Damp Rock', 'Heat Rock', 'Razor Fang', 'Assist', 'Last Respects', 'Shed Tail', 'Sleep Powder', 'Hypnosis', 'Dark Void', 'Sing', 'Lovely Kiss', 'Grass Whistle', 'Shell Smash + Blastoisinite',
+			'Quick Claw', 'Damp Rock', 'Heat Rock', 'Razor Fang', 'Assist', 'Last Respects', 'Shed Tail', 'Sleep Powder', 'Hypnosis', 'Dark Void', 'Sing', 'Lovely Kiss', 'Grass Whistle', 'Shell Smash + Blastoisinite', 'Shell Smash + Barbaracite', 'Seismic Toss + Kangaskhanite',
 		],
 	},
 	{
