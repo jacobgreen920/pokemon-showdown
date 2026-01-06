@@ -2600,8 +2600,8 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: 'gen9',
 		ruleset: ['Standard NatDex', 'Terastal Clause'],
 		banlist: [
-			'ND Uber', 'ND AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'King\'s Rock',
-			'Quick Claw', 'Damp Rock', 'Heat Rock', 'Razor Fang', 'Assist', 'Last Respects', 'Shed Tail',
+			'ND Uber', 'ND AG', 'Moody', 'Power Construct', 'King\'s Rock',
+			'Quick Claw', 'Damp Rock', 'Heat Rock', 'Razor Fang', 'Assist', 'Last Respects', 'Shed Tail', 'Sleep Powder', 'Hypnosis', 'Dark Void', 'Sing', 'Lovely Kiss', 'Grass Whistle', 'Shell Smash + Blastoisinite',
 		],
 	},
 	{
