@@ -420,7 +420,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	dugtrio: {
 		tier: "ZU",
 		doublesTier: "(DUU)",
-		natDexTier: "RU",
+		natDexTier: "Uber",
 	},
 	dugtrioalola: {
 		tier: "ZU",
@@ -1066,7 +1066,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	ditto: {
 		tier: "ZU",
 		doublesTier: "(DUU)",
-		natDexTier: "RU",
+		natDexTier: "Uber",
 	},
 	eevee: {
 		tier: "LC",
@@ -1457,7 +1457,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	unown: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "RU",
+		natDexTier: "Uber",
 	},
 	wynaut: {
 		isNonstandard: "Past",
@@ -1900,7 +1900,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	gallademega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "UUBL",
+		natDexTier: "Uber",
 	},
 	surskit: {
 		tier: "LC",
@@ -2003,7 +2003,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	mawilemega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "UUBL",
+		natDexTier: "Uber",
 	},
 	aron: {
 		isNonstandard: "Past",
@@ -2036,7 +2036,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	medichammega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "UUBL",
+		natDexTier: "Uber",
 	},
 	electrike: {
 		isNonstandard: "Past",
@@ -2750,7 +2750,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	garchomp: {
 		tier: "UUBL",
 		doublesTier: "DUU",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	garchompmega: {
 		isNonstandard: "Past",
@@ -3760,12 +3760,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	landorustherian: {
 		tier: "OU",
 		doublesTier: "DOU",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	kyurem: {
 		tier: "OU",
 		doublesTier: "DUU",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	kyuremblack: {
 		tier: "Uber",
@@ -3853,7 +3853,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	greninja: {
 		tier: "UU",
 		doublesTier: "(DUU)",
-		natDexTier: "UUBL",
+		natDexTier: "Uber",
 	},
 	greninjaash: {
 		isNonstandard: "Past",
@@ -4693,7 +4693,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	tapukoko: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	tapulele: {
 		isNonstandard: "Past",
@@ -5252,7 +5252,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	zamazenta: {
 		tier: "OU",
 		doublesTier: "DUber",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	zamazentacrowned: {
 		tier: "Uber",
@@ -5662,7 +5662,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	greattusk: {
 		tier: "OU",
 		doublesTier: "(DUU)",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	brutebonnet: {
 		tier: "PU",
@@ -5727,7 +5727,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	ironvaliant: {
 		tier: "OU",
 		doublesTier: "(DUU)",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	tinglu: {
 		tier: "OU",
