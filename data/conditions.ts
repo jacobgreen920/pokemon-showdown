@@ -38,7 +38,7 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 			return spe;
 		},
 		onBeforeMovePriority: 1,
-		onFoeTryMove(source, target, move) {
+		onFoeAfterMove(source, target, move) {
 			// If opponent protects, do not increment para counter
 			if (move && move.priority === 4 && this.effectState.time < 2) {
 				this.effectState.time--;
