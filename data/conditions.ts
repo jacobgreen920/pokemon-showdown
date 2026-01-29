@@ -47,7 +47,7 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 				const action = this.queue.willMove(target);
 				const move = action?.choice === 'move' ? action.move : null;
 				// Do not increment paralysis if opponent protects
-				if (!(move && move?.priority !== 4)) {
+				if (!(move && move?.priority === 4)) {
 					this.effectState.time++;
 				}
 			}
