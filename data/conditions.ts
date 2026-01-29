@@ -38,13 +38,18 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 			return spe;
 		},
 		onBeforeMovePriority: 1,
-		onBeforeMove(pokemon) {
+		onBeforeMove(pokemon, target) {
 			if (this.effectState.time === 2) {
 				this.add('cant', pokemon, 'par');
 				this.effectState.time = 0;
 				return false;
 			} else {
-				this.effectState.time++;
+				const action = this.queue.willMove(target);
+				const move = action?.choice === 'move' ? action.move : null;
+				// Do not increment paralysis if opponent protects
+				if (!move || move?.priority !== 4) {
+					this.effectState.time++;
+				}
 			}
 		},
 		onSwitchIn(pokemon) {
