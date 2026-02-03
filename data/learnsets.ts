@@ -78483,7 +78483,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	golisopod: {
 		learnset: {
 			aerialace: ["7M"],
-			agility: ["6M"], //new move
+			agility: ["7M"], //new move
 			assurance: ["8M"],
 			attract: ["8M", "7M"],
 			blizzard: ["8M", "7M"],
@@ -78510,7 +78510,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			frustration: ["7M"],
 			furycutter: ["8L8", "7L1"],
 			gigaimpact: ["8M", "7M"],
-			gunkshot: ["6M"], //new move
+			gunkshot: ["7M"], //new move
 			hail: ["8M", "7M"],
 			hiddenpower: ["7M"],
 			hyperbeam: ["8M"],
@@ -78523,7 +78523,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			liquidation: ["8M", "8L44", "7T", "7L48"],
 			muddywater: ["8M"],
 			mudshot: ["8M", "8L12"],
-			nightslash: ["6M"], //new move
+			nightslash: ["7M"], //new move
 			painsplit: ["7T"],
 			payback: ["8M", "7M"],
 			pinmissile: ["8M", "8L36", "7L41"],
@@ -78561,7 +78561,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			taunt: ["8M", "7M"],
 			throatchop: ["8M", "7T"],
 			toxic: ["7M"],
-			uturn: ["6M"], //new move
+			uturn: ["7M"], //new move
 			venoshock: ["8M", "7M"],
 			waterfall: ["8M", "7M"],
 			waterpulse: ["7T"],
