@@ -50243,7 +50243,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			healingwish: ["8L52", "7L1", "6L1", "5L63", "4L53"],
 			helpinghand: ["8M", "7T", "6T", "5T", "4T"],
 			hiddenpower: ["7M", "6M", "5M", "4M"],
-			highjumpkick: ["8L56", "7L66", "6L66"],
+			// removed move highjumpkick: ["8L56", "7L66", "6L66"],
 			hyperbeam: ["8M", "7M", "6M", "5M", "4M"],
 			hypervoice: ["8M", "7T", "6T", "5T"],
 			icebeam: ["8M", "7M", "6M", "5M", "4M"],
@@ -91258,7 +91258,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sleeptalk: ["9M"],
 			steelbeam: ["9M"],
 			substitute: ["9M", "9L21"],
-			surf: ["6M"], //new move
+			surf: ["9M"], //new move
 			tackle: ["9L1"],
 			takedown: ["9M"],
 			terablast: ["9M"],
