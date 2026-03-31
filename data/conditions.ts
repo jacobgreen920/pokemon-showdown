@@ -44,7 +44,7 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 				this.effectState.time--;
 			}
 		},
-		onBeforeMove(pokemon, target) {
+		onBeforeMove(pokemon) {
 			if (this.effectState.time === 2) {
 				this.add('cant', pokemon, 'par');
 				this.effectState.time = 0;
@@ -53,7 +53,7 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 				this.effectState.time++;
 			}
 		},
-		onSwitchIn(pokemon) {
+		onSwitchIn() {
 			this.effectState.time = 0;
 		}
 	},
