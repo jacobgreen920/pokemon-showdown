@@ -68019,7 +68019,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["8M", "8L42", "8S4", "7M", "7L51", "6M", "6L51", "5M", "5L51"],
 			zapcannon: ["8L70", "7L66", "6L66", "5L66"],
 			zenheadbutt: ["8M", "7T", "6T", "5T"],
-			magnetbomb: ["6M"], //new move
 		},
 		eventData: [
 			{generation: 5, level: 50, moves: ["technoblast", "magnetbomb", "solarbeam", "signalbeam"], pokeball: "cherishball"},
