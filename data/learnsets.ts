@@ -70002,7 +70002,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		eventData: [
 			{generation: 9, level: 72, nature: "Modest", moves: ["lightofruin", "energyball", "gigadrain", "synthesis"], pokeball: "pokeball", source: "gen9legends"},
 		],
-		eventOnly: true,
+		eventOnly: false,
 	},
 	florges: {
 		learnset: {
