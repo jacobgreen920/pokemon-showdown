@@ -4074,7 +4074,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	slurpuff: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "6",
+		natDexTier: "7",
 	},
 	inkay: {
 		tier: "LC",
