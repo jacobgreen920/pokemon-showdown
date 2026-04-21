@@ -82275,7 +82275,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			doubleteam: ["7M"],
 			drainpunch: ["8M", "7T"],
 			dualchop: ["7T"],
-			dynamicpunch: ["6M"], //new move
+			dynamicpunch: ["7M"], //new move
 			echoedvoice: ["7M"],
 			electricterrain: ["8M"],
 			electroball: ["8M"],
@@ -82336,7 +82336,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			thunderpunch: ["8M", "8L48", "7T", "7L29", "7S0"],
 			thunderwave: ["8M", "7M"],
 			toxic: ["7M"],
-			vacuumwave: ["6M"], //new move
+			vacuumwave: ["7M"], //new move
 			voltswitch: ["8M", "8L32", "7M", "7L15"],
 			wildcharge: ["8M", "8L72", "7M", "7L36"],
 			workup: ["8M", "7M"],
@@ -82345,6 +82345,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{generation: 7, level: 50, moves: ["plasmafists", "thunderpunch", "closecombat", "thunder"], pokeball: "cherishball"},
 			{generation: 8, level: 100, shiny: true, nature: "Hasty", ivs: {hp: 31, atk: 31, def: 30, spa: 31, spd: 31, spe: 31}, moves: ["plasmafists", "closecombat", "blazekick", "outrage"], pokeball: "cherishball"},
 		],
+		eventOnly: false,
 	},
 	meltan: {
 		learnset: {
