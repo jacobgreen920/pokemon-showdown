@@ -475,7 +475,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	primeape: {
-		tier: "ZU",
+		tier: "NFE",
 		doublesTier: "NFE",
 		natDexTier: "4",
 	},
@@ -1447,7 +1447,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "1",
 	},
 	yanmega: {
-		tier: "RUBL",
+		tier: "RU",
 		doublesTier: "(DUU)",
 		natDexTier: "6",
 	},
@@ -3371,7 +3371,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "1",
 	},
 	scrafty: {
-		tier: "PU",
+		tier: "PUBL",
 		doublesTier: "DUU",
 		natDexTier: "5",
 	},
@@ -3483,7 +3483,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "2",
 	},
 	reuniclus: {
-		tier: "NU",
+		tier: "NUBL",
 		doublesTier: "(DUU)",
 		natDexTier: "9",
 	},
@@ -3682,7 +3682,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	mienshao: {
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "(DUU)",
 		natDexTier: "10",
 	},
@@ -4557,7 +4557,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "6",
 	},
 	comfey: {
-		tier: "RUBL",
+		tier: "RU",
 		doublesTier: "DUU",
 		natDexTier: "7",
 	},
@@ -5244,7 +5244,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	frosmoth: {
-		tier: "PUBL",
+		tier: "PU",
 		doublesTier: "(DUU)",
 		natDexTier: "2",
 	},
@@ -5382,7 +5382,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "12",
 	},
 	regieleki: {
-		tier: "Uber",
+		tier: "UU",
 		doublesTier: "DUU",
 		natDexTier: "9",
 	},
@@ -5392,7 +5392,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "8",
 	},
 	glastrier: {
-		tier: "ZU",
+		tier: "ZUBL",
 		doublesTier: "(DUU)",
 		natDexTier: "5",
 	},
@@ -5872,7 +5872,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	armarouge: {
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "DUU",
 		natDexTier: "9",
 	},
@@ -6330,6 +6330,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	ramnarokradiant: {
 		isNonstandard: "CAP",
 		tier: "Illegal",
+	},
+	obliteryx: {
+		isNonstandard: "CAP",
+		tier: "CAP",
 	},
 	pokestarsmeargle: {
 		isNonstandard: "Custom",

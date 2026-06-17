@@ -374,7 +374,7 @@ export const Scripts: ModdedBattleScriptsData = {
 			}
 
 			// weather modifier
-			baseDamage = this.battle.runEvent('WeatherModifyDamage', pokemon, target, move, baseDamage);
+			baseDamage = this.battle.priorityEvent('WeatherModifyDamage', pokemon, target, move, baseDamage);
 
 			// crit - not a modifier
 			const isCrit = target.getMoveHitData(move).crit;
@@ -468,8 +468,12 @@ export const Scripts: ModdedBattleScriptsData = {
 			// Final modifier. Modifiers that modify damage after min damage check, such as Life Orb.
 			baseDamage = this.battle.runEvent('ModifyDamage', pokemon, target, move, baseDamage);
 
-			if (move.isZOrMaxPowered && target.getMoveHitData(move).zBrokeProtect) {
+			const bypassProtect = target.getMoveHitData(move).bypassProtect;
+			if (bypassProtect) {
 				baseDamage = this.battle.modify(baseDamage, 0.25);
+				if (bypassProtect !== true && bypassProtect.effectType === 'Ability') {
+					this.battle.add('-ability', pokemon, bypassProtect.name);
+				}
 				this.battle.add('-zbroken', target);
 			}
 
