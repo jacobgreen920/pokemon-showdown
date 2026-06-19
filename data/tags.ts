@@ -242,29 +242,17 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		name: "ND OU",
 		speciesFilter: species => species.natDexTier === 'OU' || species.natDexTier === '(OU)',
 	},
-	nduubl: {
-		name: "ND UUBL",
-		speciesFilter: species => species.natDexTier === 'UUBL',
+	nd19: {
+		name: "ND 19",
+		speciesFilter: species => species.natDexTier === '19',
 	},
-	nduu: {
-		name: "ND UU",
-		speciesFilter: species => species.natDexTier === 'UU',
+	nd18: {
+		name: "ND 18",
+		speciesFilter: species => species.natDexTier === '18',
 	},
-	ndrubl: {
-		name: "ND RUBL",
-		speciesFilter: species => species.natDexTier === 'RUBL',
-	},
-	ndru: {
-		name: "ND RU",
-		speciesFilter: species => species.natDexTier === 'RU',
-	},
-	ndnfe: {
-		name: "ND NFE",
-		speciesFilter: species => species.natDexTier === 'NFE',
-	},
-	ndlc: {
-		name: "ND LC",
-		speciesFilter: species => species.natDexTier === 'LC',
+	nd17: {
+		name: "ND 17",
+		speciesFilter: species => species.natDexTier === '17',
 	},
 	nd16: {
 		name: "ND 16",
@@ -329,6 +317,30 @@ export const Tags: { [id: IDEntry]: TagData } = {
 	nd1: {
 		name: "ND 1",
 		speciesFilter: species => species.natDexTier === '1',
+	},
+	nduubl: {
+		name: "ND UUBL",
+		speciesFilter: species => species.natDexTier === 'UUBL',
+	},
+	nduu: {
+		name: "ND UU",
+		speciesFilter: species => species.natDexTier === 'UU',
+	},
+	ndrubl: {
+		name: "ND RUBL",
+		speciesFilter: species => species.natDexTier === 'RUBL',
+	},
+	ndru: {
+		name: "ND RU",
+		speciesFilter: species => species.natDexTier === 'RU',
+	},
+	ndnfe: {
+		name: "ND NFE",
+		speciesFilter: species => species.natDexTier === 'NFE',
+	},
+	ndlc: {
+		name: "ND LC",
+		speciesFilter: species => species.natDexTier === 'LC',
 	},
 
 	// Legality tags
