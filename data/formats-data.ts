@@ -1258,7 +1258,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	mew: {
 		tier: "UU",
 		doublesTier: "DUU",
-		natDexTier: "16",
+		natDexTier: "18",
 	},
 	chikorita: {
 		tier: "LC",
@@ -4950,7 +4950,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	cinderace: {
 		tier: "OU",
 		doublesTier: "(DUU)",
-		natDexTier: "15",
+		natDexTier: "17",
 	},
 	cinderacegmax: {
 		isNonstandard: "Past",
@@ -5991,7 +5991,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	terapagos: {
 		tier: "Uber",
 		doublesTier: "DUber",
-		natDexTier: "16",
+		natDexTier: "19",
 	},
 	terapagosstellar: {
 		tier: "Uber",
