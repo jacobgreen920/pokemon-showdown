@@ -60373,7 +60373,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			energyball: ["8M"],
 			facade: ["8M"],
 			faketears: ["8M"],
-			gigadrain: ["6M"], //new move
+			gigadrain: ["8M"], //new move
 			gigaimpact: ["8M"],
 			grassknot: ["8M"],
 			guardsplit: ["8L56"],
@@ -60381,14 +60381,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			haze: ["8L1"],
 			hex: ["8M", "8L24"],
 			hyperbeam: ["8M"],
-			icywind: ["6M"], //new move
+			icywind: ["8M"], //new move
 			imprison: ["8M"],
-			infestation: ["6M"], //new move
+			infestation: ["8M"], //new move
 			irondefense: ["8M"],
 			meanlook: ["8L28"],
 			nastyplot: ["8M"],
 			nightshade: ["8L1"],
-			partingshot: ["6M"], //new move
+			partingshot: ["8M"], //new move
 			payback: ["8M"],
 			phantomforce: ["8M"],
 			poltergeist: ["8T"],
@@ -60396,7 +60396,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			powerswap: ["8M"],
 			protect: ["8M", "8L1"],
 			psychic: ["8M"],
-			psyshock: ["6M"], //new move
+			psyshock: ["8M"], //new move
 			raindance: ["8M"],
 			rest: ["8M"],
 			revenge: ["8M"],
@@ -60419,17 +60419,17 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			substitute: ["8M"],
 			taunt: ["8M"],
 			thief: ["8M"],
-			thunderwave: ["6M"], //new move
+			thunderwave: ["8M"], //new move
 			toxicspikes: ["8M"],
 			trick: ["8M"],
 			trickroom: ["8M"],
 			willowisp: ["8M"],
 			wonderroom: ["8M"],
 			zenheadbutt: ["8M"],
-			mudshot: ["6M"], //new move
-			shadowpunch: ["6M"], //new move
-			ominouswind: ["6M"], //new move
-			selfdestruct: ["6M"], //new move
+			mudshot: ["8M"], //new move
+			shadowpunch: ["8M"], //new move
+			ominouswind: ["8M"], //new move
+			selfdestruct: ["8M"], //new move
 		},
 	},
 	tirtouga: {
