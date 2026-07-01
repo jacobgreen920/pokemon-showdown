@@ -29580,7 +29580,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			lashout: ["9M"],
 			liquidation: ["9M"],
 			minimize: ["9L16"],
-			mortalspin: ["6M"], //new move
+			mortalspin: ["9M"], //new move
 			mudshot: ["9M"],
 			painsplit: ["9M"],
 			pinmissile: ["9L32"],
@@ -29611,7 +29611,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			taunt: ["9M"],
 			terablast: ["9M"],
 			throatchop: ["9M"],
-			thunderwave: ["6M"], //new move
+			thunderwave: ["9M"], //new move
 			toxic: ["9M", "9L44"],
 			toxicspikes: ["9M", "9L36"],
 			venoshock: ["9M"],
